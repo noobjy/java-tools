@@ -1,16 +1,16 @@
-package me.noobj.api.common.service;
+package me.noobj.api.common.dynamic.service;
 
 import org.apache.log4j.Logger;
 
-import me.noobj.api.common.control.AccessControlHashMapImp;
-import me.noobj.api.common.control.AccessControlRedisImp;
-import me.noobj.api.common.dao.DynamicPwdHashMapDaoImp;
-import me.noobj.api.common.dao.DynamicPwdRedisDaoImp;
-import me.noobj.api.common.dao.IDynamicPwdDao;
-import me.noobj.api.common.data.DynamicPwdRetCodeSetting;
-import me.noobj.api.common.data.config.DynamicPwdServiceSetting;
-import me.noobj.api.common.data.result.DynamicPwd;
-import me.noobj.api.common.data.result.VerifyDynamicPwdResult;
+import me.noobj.api.common.dynamic.control.AccessControlHashMapImp;
+import me.noobj.api.common.dynamic.control.AccessControlRedisImp;
+import me.noobj.api.common.dynamic.dao.DynamicPwdHashMapDaoImp;
+import me.noobj.api.common.dynamic.dao.DynamicPwdRedisDaoImp;
+import me.noobj.api.common.dynamic.dao.IDynamicPwdDao;
+import me.noobj.api.common.dynamic.data.DynamicPwdRetCodeSetting;
+import me.noobj.api.common.dynamic.data.config.DynamicPwdServiceSetting;
+import me.noobj.api.common.dynamic.data.result.DynamicPwd;
+import me.noobj.api.common.dynamic.data.result.VerifyDynamicPwdResult;
 import redis.clients.jedis.JedisPool;
 
 public class DynamicPwdService extends AbstractDynamicPwdService {

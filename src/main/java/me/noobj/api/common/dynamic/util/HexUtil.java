@@ -1,4 +1,4 @@
-package me.noobj.api.common.util;
+package me.noobj.api.common.dynamic.util;
 
 public class HexUtil {
 	public static String toHexString(byte val) {

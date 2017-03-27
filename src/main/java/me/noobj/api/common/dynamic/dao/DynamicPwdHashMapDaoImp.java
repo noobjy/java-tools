@@ -1,12 +1,12 @@
-package me.noobj.api.common.dao;
+package me.noobj.api.common.dynamic.dao;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
-import me.noobj.api.common.data.DynamicPwdRetCodeSetting;
-import me.noobj.api.common.data.result.DynamicPwd;
-import me.noobj.api.common.service.AbstractDynamicPwdService;
+import me.noobj.api.common.dynamic.data.DynamicPwdRetCodeSetting;
+import me.noobj.api.common.dynamic.data.result.DynamicPwd;
+import me.noobj.api.common.dynamic.service.AbstractDynamicPwdService;
 
 public class DynamicPwdHashMapDaoImp implements IDynamicPwdDao {
 	private final static String Delim = ",";

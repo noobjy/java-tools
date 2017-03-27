@@ -1,6 +1,6 @@
-package me.noobj.api.common.control;
+package me.noobj.api.common.dynamic.control;
 
-import me.noobj.api.common.dao.IDynamicPwdDao;
+import me.noobj.api.common.dynamic.dao.IDynamicPwdDao;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 

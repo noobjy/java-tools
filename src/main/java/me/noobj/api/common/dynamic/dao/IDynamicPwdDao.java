@@ -1,7 +1,7 @@
-package me.noobj.api.common.dao;
+package me.noobj.api.common.dynamic.dao;
 
-import me.noobj.api.common.data.result.DynamicPwd;
-import me.noobj.api.common.service.AbstractDynamicPwdService;
+import me.noobj.api.common.dynamic.data.result.DynamicPwd;
+import me.noobj.api.common.dynamic.service.AbstractDynamicPwdService;
 
 public interface IDynamicPwdDao {
 	public DynamicPwd createDynamicPwd(AbstractDynamicPwdService service, String id) throws Exception;

@@ -1,8 +1,8 @@
-package me.noobj.api.common.control;
+package me.noobj.api.common.dynamic.control;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import me.noobj.api.common.dao.IDynamicPwdDao;
+import me.noobj.api.common.dynamic.dao.IDynamicPwdDao;
 
 public class AccessControlHashMapImp implements IDynamicPwdDao.IAccessLockControl{
 	public final static String REDIS_KEY_SUFFIX_LOCK = ".accesslock.";

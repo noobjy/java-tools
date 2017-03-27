@@ -2,8 +2,8 @@ package me.noobj.api.common.junittest;
 
 import org.junit.Test;
 
-import me.noobj.api.common.data.result.DynamicPwd;
-import me.noobj.api.common.service.DynamicPwdService;
+import me.noobj.api.common.dynamic.data.result.DynamicPwd;
+import me.noobj.api.common.dynamic.service.DynamicPwdService;
 
 public class TestService {
 	

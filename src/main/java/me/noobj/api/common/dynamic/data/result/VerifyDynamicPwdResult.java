@@ -1,4 +1,4 @@
-package me.noobj.api.common.data.result;
+package me.noobj.api.common.dynamic.data.result;
 
 public class VerifyDynamicPwdResult {
 	private int _ret_code = 0;

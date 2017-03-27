@@ -1,4 +1,4 @@
-package me.noobj.api.common.data.config;
+package me.noobj.api.common.dynamic.data.config;
 
 public class DynamicPwdServiceSetting {
 

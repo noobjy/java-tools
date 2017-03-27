@@ -1,4 +1,4 @@
-package me.noobj.api.common.data;
+package me.noobj.api.common.dynamic.data;
 
 public class DynamicPwdRetCodeSetting {
 	public final static int Success = 0;

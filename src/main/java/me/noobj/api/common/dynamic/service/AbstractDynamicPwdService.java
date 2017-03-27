@@ -1,4 +1,4 @@
-package me.noobj.api.common.service;
+package me.noobj.api.common.dynamic.service;
 
 import java.math.BigDecimal;
 import java.security.SecureRandom;
@@ -6,10 +6,10 @@ import java.util.Random;
 
 import org.apache.log4j.Logger;
 
-import me.noobj.api.common.data.config.DynamicPwdServiceSetting;
-import me.noobj.api.common.data.result.DynamicPwd;
-import me.noobj.api.common.data.result.VerifyDynamicPwdResult;
-import me.noobj.api.common.util.HexUtil;
+import me.noobj.api.common.dynamic.data.config.DynamicPwdServiceSetting;
+import me.noobj.api.common.dynamic.data.result.DynamicPwd;
+import me.noobj.api.common.dynamic.data.result.VerifyDynamicPwdResult;
+import me.noobj.api.common.dynamic.util.HexUtil;
 
 public abstract class AbstractDynamicPwdService{
 	private final static Logger logger = Logger.getLogger(AbstractDynamicPwdService.class);
